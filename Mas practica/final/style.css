@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.containerGeneral{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 70px repeat(3,1fr);
+    gap: 20px;
+    
+
+}
+h1{ 
+    font-family: Public Sans;
+    font-weight: regular;
+    background-color: #3FD4F4;
+    height: 50px;
+    text-align: center;
+    grid-column-start:1;
+    grid-column-end: 3;
+}
+.containerGeneral div{
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+    place-content: center;
+    /* text-align: center; */
+    border-radius: 20px;
+    width: 40vw;
+    margin: 0 auto;
+    padding-bottom: 20px;  
+}
+.containerGeneral .sueldoPrincipal{
+    text-align: start;
+    color: white;
+    grid-column-start:1;
+    grid-column-end: 3;
+    height: 130px;
+    background: #48B7C6;
+    box-shadow: 10px 10px 10px black;
+}
+p{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    
+}
+input{
+    height: 25px;
+    text-align: center;
+    border-radius: 20px;
+}
+button{
+    border: 1px grey solid;
+    background-color: #6be6f7;
+    border-radius: 40px;
+    margin-top: 10px;
+    place-self: center;
+    width: 70px;
+    height: 30px;
+}
+.porcentajeSueldo{
+    display: grid;
+    place-content: center;
+    text-align: center;
+    border-radius: 20px;
+    width: 40vw;
+    background-color: #C4C4C4;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    
+}
+/* .porcentajeSueldo */
+p{ 
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    
+}
+/* .porcentajeSueldo */
+
+.diferenciaCon{
+    background-color: #C4C4C4;
+}
+.enDolares {
+    background-color: #C4C4C4;
+}
+.porDia{
+    background-color:  #C4C4C4;
+}

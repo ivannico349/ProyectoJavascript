@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Salario</title>
+</head>
+<body>
+ <div class="containerGeneral">
+
+     <h1>Calculadora Sueldo</h1>
+
+     <div class="sueldoPrincipal">
+        <label for="sueldo">Tu sueldo</label>
+         <input type="number" id="sueldo">
+         <button type="button" onclick="clickSueldo()">Guardar</button>
+         <p id="ResultadoSueldo"></p>
+     </div>
+
+     <div class="porcentajeSueldo">
+        <label for="PorcentajeSueldo">Porcentaje de tu sueldo</label>
+         <INput id="PorcentajeSueldo"></INput>
+         <button type="button" onclick="clickPorcentaje()">Calcular</button>
+         <p id="ResultadoPorcentaje"></pid>
+
+     </div>
+
+     <div class="diferenciaCon">
+        <label for="Diferencia">Diferencia Con</label>
+        <INput id="Diferencia"></INput>
+        <button type="button" onclick="clickDiferencia()">Calcular</button>
+         <p id="ResultadoDiferencia"></p>
+     </div>
+
+     <div class="enDolares">
+        <label>Tu sueldo en dolares: </label>
+        <button type="button" onclick="clickDolares()">Calcular</button>
+        <p id="ResultadoDolares"></p>
+
+     </div>
+
+     <div class="porDia">
+        <label>Por dia ganas:</label>
+        <button type="button" onclick="clickDia()">Calcular</button>
+        <p id="ResultadoDia"></p>
+
+     </div>
+ </div> 
+<script src="./script.js"></script>
+</body>
+</html>
